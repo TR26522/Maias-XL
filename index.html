@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Maias Supermarkt - verse producten, halal slagerij en dagelijkse boodschappen met betrouwbare service." />
+  <title>Maias Supermarkt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img" aria-label="Maias logo icoon">
+            <path d="M32 8c-9 0-16 7-16 16v2h8v-2c0-4 4-8 8-8s8 4 8 8c0 5-3 8-8 12-8 5-13 11-13 20h26c0-8-5-15-13-20-4-3-7-6-7-10 0-4 3-8 7-8s7 4 7 8h8c0-9-7-16-15-16z" fill="currentColor"/>
+          </svg>
+        </span>
+        <div>
+          <p class="brand-title">Maias</p>
+          <p class="brand-subtitle">Supermarkt</p>
+        </div>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigatie">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav">
+        <ul class="nav-links">
+          <li><a href="#over">Over ons</a></li>
+          <li><a href="#producten">Producten</a></li>
+          <li><a href="#waarom">Waarom Maias</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-banner" aria-label="Hoofdfoto's van Maias Supermarkt">
+      <div class="hero-slider" id="hero-slider">
+        <img src="images/eerste%20foto%20.png" alt="Eerste hoofdfoto van Maias Supermarkt" />
+        <img src="images/tweede%20foto.jpeg" alt="Tweede hoofdfoto van Maias Supermarkt" />
+      </div>
+
+      <div class="hero-controls" aria-label="Door foto schuiven">
+        <button type="button" class="hero-control prev" aria-label="Ga naar vorige foto">&#10094;</button>
+        <button type="button" class="hero-control next" aria-label="Ga naar volgende foto">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="over" class="section over">
+      <div class="container over-intro">
+        <p class="eyebrow">Welkom bij Maias</p>
+        <h1>Over Ons</h1>
+        <p>
+          Bij MAIAS dromen we van kwaliteit en klanttevredenheid. Onze supermarkt biedt een ruim
+          assortiment met verse groenten, fruit, dagelijkse producten en halal slagerij. We staan bekend
+          om betrouwbare service, nette presentatie en een fijne winkelervaring voor elke klant.
+        </p>
+      </div>
+    </section>
+
+    <section id="producten" class="section producten">
+      <div class="container products-grid">
+        <article class="product-card">
+          <img src="images/slagerij.png" alt="Halal slagerij van Maias" />
+          <div class="product-content">
+            <h2>Slagerij <em>(Halal)</em></h2>
+            <ul class="tick-list">
+              <li>Dagvers vlees van hoge kwaliteit</li>
+              <li>Ambachtelijk gesneden en bereid</li>
+              <li>Hygienisch en professioneel verpakt</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="images/versgrenten.png" alt="Verse groenten en fruit" />
+          <div class="product-content">
+            <h2>Verse Producten</h2>
+            <ul class="tick-list">
+              <li>Groenten en fruit van topkwaliteit</li>
+              <li>Dagelijks aangevuld</li>
+              <li>Vers en smaakvol</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="images/dagelijksproducten.png" alt="Dagelijkse producten in de supermarkt" />
+          <div class="product-content">
+            <h2>Dagelijkse Producten</h2>
+            <ul class="tick-list">
+              <li>Ruim assortiment voor het hele gezin</li>
+              <li>Altijd scherp geprijsd</li>
+              <li>Bekende merken en huismerken</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="waarom" class="section waarom">
+      <div class="container why-layout">
+        <div class="why-images">
+          <div class="image-frame">
+            <img src="images/waarom%20moet%20je%20voor%20maias%20kiezen%20.jpeg" alt="Waarom je voor Maias moet kiezen" />
+          </div>
+        </div>
+
+        <div class="why-card">
+          <h2>Waarom Kiezen Voor MAIAS?</h2>
+          <ul class="tick-list tick-list-large">
+            <li>Halal gecertificeerd</li>
+            <li>Altijd verse producten</li>
+            <li>Betaalbare prijzen</li>
+            <li>Klantvriendelijke service</li>
+            <li>Ruim assortiment</li>
+          </ul>
+          <a class="btn btn-primary" href="#contact">Bezoek Onze Winkel</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Kom langs bij Maias Supermarkt</h2>
+          <p>Alle gegevens hieronder zijn voorbeeldinformatie die je straks handmatig kunt wijzigen.</p>
+        </div>
+
+        <div class="contact-info">
+          <p><strong>Adres:</strong> Winkelstraat 8, 5620 AB Eindhoven</p>
+          <p><strong>E-mail:</strong> maiassupermarkt@gmail.com</p>
+          <p><strong>Telefoon:</strong> +31 6 44046910</p>
+          <p><strong>Opening:</strong> Ma-Zo 08:00 - 21:00</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand brand-footer">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" aria-label="Maias logo icoon">
+              <path d="M32 8c-9 0-16 7-16 16v2h8v-2c0-4 4-8 8-8s8 4 8 8c0 5-3 8-8 12-8 5-13 11-13 20h26c0-8-5-15-13-20-4-3-7-6-7-10 0-4 3-8 7-8s7 4 7 8h8c0-9-7-16-15-16z" fill="currentColor"/>
+            </svg>
+          </span>
+          <div>
+            <p class="brand-title">Maias</p>
+            <p class="brand-subtitle">Supermarkt</p>
+          </div>
+        </div>
+        <p>Jouw complete supermarkt voor dagelijkse boodschappen en weekdeals.</p>
+      </div>
+
+      <div>
+        <h3>Snelle links</h3>
+        <ul class="footer-links">
+          <li><a href="#over">Over ons</a></li>
+          <li><a href="#producten">Producten</a></li>
+          <li><a href="#waarom">Waarom Maias</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Openingstijden</h3>
+        <ul class="footer-list">
+          <li>Maandag: 08:00 - 21:00</li>
+          <li>Dinsdag: 08:00 - 21:00</li>
+          <li>Woensdag: 08:00 - 21:00</li>
+          <li>Donderdag: 08:00 - 21:00</li>
+          <li>Vrijdag: 08:00 - 21:00</li>
+          <li>Zaterdag: 08:00 - 21:00</li>
+          <li>Zondag: 08:00 - 21:00</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <ul class="footer-list">
+          <li>E-mail: maiassupermarkt@gmail.com</li>
+          <li>Telefoon: +31 6 44046910</li>
+          <li>WhatsApp: +31 6 44046910</li>
+          <li>Adres: Winkelstraat 8, Eindhoven</li>
+        </ul>
+
+        <div class="social-block" aria-label="Social media">
+          <h3>Volg ons</h3>
+          <div class="social-links">
+            <a class="social-link" href="https://www.facebook.com/share/1CjEtybkCP/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Ga naar onze Facebook-pagina">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path fill="currentColor" d="M13.5 8.5V7.2c0-.7.4-1.2 1.2-1.2h1.8V3h-2.5C11.2 3 10 4.2 10 6.2v2.3H8v3h2v9h3.5v-9h2.7l.4-3h-3.1z"/>
+              </svg>
+              Facebook
+            </a>
+            <a class="social-link" href="https://www.tiktok.com/@maias.supermarket?_r=1&_t=ZG-958EyYpckF7" target="_blank" rel="noopener noreferrer" aria-label="Ga naar onze TikTok-pagina">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path fill="currentColor" d="M16.5 3c.3 1.7 1.3 3 2.9 3.8.8.4 1.7.6 2.6.6v3.1c-1.2 0-2.3-.2-3.4-.6-.7-.3-1.4-.7-2.1-1.2V15c0 3.8-3 6.8-6.8 6.8S3 18.8 3 15s3-6.8 6.8-6.8c.4 0 .9 0 1.3.1v3.3c-.4-.1-.8-.2-1.3-.2-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6V3h3.1z"/>
+              </svg>
+              TikTok
+            </a>
+          </div>
+        </div>
+
+        <div class="payment-block" aria-label="Geaccepteerde betaalmethodes">
+          <h3>Betaalmethodes</h3>
+          <ul class="payment-list">
+            <li class="pay-badge visa">VISA</li>
+            <li class="pay-badge maestro">Maestro</li>
+            <li class="pay-badge amex">American Express</li>
+            <li class="pay-badge ideal">iDEAL</li>
+            <li class="pay-badge klarna">Klarna</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p id="copyright"></p>
+      <p>Alle informatie is voorbeeldtekst en kan handmatig worden aangepast.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
