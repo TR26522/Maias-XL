@@ -26,9 +26,16 @@ if (navToggle && primaryNav) {
 }
 
 if (heroSlider && heroControls.length) {
+  // Start on image 2 so navigation can go from image 2 to image 1.
+  window.addEventListener("load", () => {
+    if (heroSlider.children.length > 1) {
+      heroSlider.scrollLeft = heroSlider.clientWidth;
+    }
+  }, { once: true });
+
   heroControls.forEach((control) => {
     control.addEventListener("click", () => {
-      const direction = control.classList.contains("next") ? 1 : -1;
+      const direction = control.classList.contains("next") ? -1 : 1;
       heroSlider.scrollBy({
         left: direction * heroSlider.clientWidth,
         behavior: "smooth"
