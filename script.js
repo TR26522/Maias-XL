@@ -7,7 +7,7 @@ const heroSlider = document.getElementById("hero-slider");
 const heroControls = document.querySelectorAll(".hero-control");
 
 if (copyright) {
-  copyright.textContent = `© ${year} Maias Supermarkt. Alle rechten voorbehouden.`;
+  copyright.textContent = `© ${year} Maias Supermarkt`;
 }
 
 if (navToggle && primaryNav) {
