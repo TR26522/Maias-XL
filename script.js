@@ -1,14 +1,8 @@
-const year = new Date().getFullYear();
-const copyright = document.getElementById("copyright");
 const navToggle = document.querySelector(".nav-toggle");
 const primaryNav = document.getElementById("primary-nav");
 const navLinks = document.querySelectorAll(".primary-nav .nav-links a");
 const heroSlider = document.getElementById("hero-slider");
 const heroControls = document.querySelectorAll(".hero-control");
-
-if (copyright) {
-  copyright.textContent = `© ${year} Maias Supermarkt`;
-}
 
 if (navToggle && primaryNav) {
   navToggle.addEventListener("click", () => {
