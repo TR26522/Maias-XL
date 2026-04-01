@@ -284,6 +284,23 @@ h2 {
   margin-bottom: 12px;
 }
 
+.welcome-photo-frame {
+  width: min(960px, 100%);
+  margin: 0 auto 22px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #f3eee4;
+  border: 1px solid rgba(216, 212, 196, 0.9);
+  box-shadow: var(--shadow);
+}
+
+.welcome-opening-photo {
+  width: 100%;
+  height: auto;
+  max-height: 82vh;
+  object-fit: contain;
+}
+
 .over-intro h1 {
   color: #6b2030;
   margin-bottom: 12px;
@@ -623,6 +640,7 @@ h2 {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -695,3 +713,10 @@ h2 {
     height: 34px;
     font-size: 1rem;
   }
+
+  .welcome-photo-frame {
+    margin-bottom: 18px;
+    border-radius: var(--radius-md);
+  }
+
+}
